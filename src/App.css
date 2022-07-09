@@ -23,6 +23,102 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.header-row{
+  padding-top: 2%;
+}
+.header-tab{
+  position: relative;
+  height: 80px;
+  background: #339898;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-div{
+  position: relative;
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-logo{
+  position: absolute;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+
+
+  color: #FFFFFF;
+}
+.search-div{
+  position: relative;
+  height: 100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-text{
+  position: absolute;
+  width:100%;
+  background: #F4F2F2;
+  border-radius: 10px;
+
+}
+.main{
+  padding: 2%;
+  background: #DBDBDB;
+}
+.category{
+  padding: 2%;
+  height: 500px;
+  background: #F9F9F9;
+  border-radius: 20px;
+  display: flex;
+
+}.button-div{
+   padding: 10px;
+ }
+.button-cat{
+  height: 50px;
+  width: 100%;
+  background: #D5CDCD;
+  border: 1px solid #000000;
+  border-radius: 10px;
+
+}
+.main-title{
+  padding: 2%;
+  height: 500px;
+  background: #F9F9F9;
+  border-radius: 20px;
+}
+.second-title{
+  margin-top: 2%;
+  height: 300px;
+  background: #F9F9F9;
+  border-radius: 20px;
+}
+.footer{
+  position: absolute;
+  width: 1920px;
+  height: 125px;
+  left: 0px;
+  top: 1350px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px 0px 0px 0px;
+}
+.footer-block{
+  position: absolute;
+  width: 1920px;
+  height: 125px;
+  left: 0px;
+  top: 0px;
+
+  background: #339898;
+}
 
 .App-link {
   color: #61dafb;
