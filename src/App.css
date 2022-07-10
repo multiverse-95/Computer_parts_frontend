@@ -14,7 +14,13 @@
 }
 h3{
   color: #282c34;
+  text-align: center;
 }
+h4{
+  color: #282c34;
+  text-align: center;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -96,9 +102,19 @@ h3{
   background: #F9F9F9;
   border-radius: 20px;
 }
+.capabilities-div{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.capabilities-image{
+  cursor:pointer;
+  border-radius: 20px;
+}
 .second-title{
   margin-top: 2%;
-  height: 300px;
+  height: 320px;
   background: #F9F9F9;
   border-radius: 20px;
 }
