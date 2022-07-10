@@ -80,6 +80,7 @@
    padding: 10px;
  }
 .button-cat{
+  cursor:pointer;
   height: 50px;
   width: 100%;
   background: #D5CDCD;

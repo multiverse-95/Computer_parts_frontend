@@ -6,13 +6,13 @@ class Category extends React.Component{
         return(
             <div className="category">
                 <Container>
-                    <CategoryButton nameButton="test"></CategoryButton>
-                    <CategoryButton nameButton="test2"></CategoryButton>
-                    <CategoryButton nameButton="test3"></CategoryButton>
-                    <CategoryButton nameButton="test4"></CategoryButton>
-                    <CategoryButton nameButton="test5"></CategoryButton>
-                    <CategoryButton nameButton="test6"></CategoryButton>
-                    <CategoryButton nameButton="test7"></CategoryButton>
+                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/console.png')} textButton="  Видеокарты"></CategoryButton>
+                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/processor.png')} textButton="  Процессоры"></CategoryButton>
+                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/memory.png')} textButton="  ОЗУ"></CategoryButton>
+                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/motherboard.png')} textButton="  Платы"></CategoryButton>
+                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/cooler.png')} textButton="  Кулеры"></CategoryButton>
+                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/power.png')} textButton="  Блоки питания"></CategoryButton>
+                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/box.png')} textButton="  Корпуса"></CategoryButton>
                 </Container>
             </div>
         )
