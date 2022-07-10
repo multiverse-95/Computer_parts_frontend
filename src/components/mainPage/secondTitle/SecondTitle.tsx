@@ -1,5 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
+import '../../../assets/css/mainPage.css';
 
 class SecondTitle extends React.Component{
     render() {

@@ -1,0 +1,45 @@
+.main{
+    padding: 2%;
+    background: #DBDBDB;
+}
+.category{
+    padding: 2%;
+    height: 500px;
+    background: #F9F9F9;
+    border-radius: 20px;
+    display: flex;
+
+}.button-div{
+     padding: 10px;
+ }
+.button-cat{
+    cursor:pointer;
+    height: 50px;
+    width: 100%;
+    background: #D5CDCD;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}
+.main-title{
+    padding: 2%;
+    height: 500px;
+    background: #F9F9F9;
+    border-radius: 20px;
+}
+.capabilities-div{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.capabilities-image{
+    cursor:pointer;
+    border-radius: 20px;
+}
+.second-title{
+    margin-top: 2%;
+    height: 320px;
+    background: #F9F9F9;
+    border-radius: 20px;
+}

@@ -4,6 +4,7 @@ import {Col, Container, Row} from "react-bootstrap";
 import Category from "../components/mainPage/category/Category";
 import MainTitle from "../components/mainPage/mainTitle/MainTitle";
 import SecondTitle from "../components/mainPage/secondTitle/SecondTitle";
+import '../assets/css/mainPage.css';
 
 class MainPage extends React.Component {
     render() {

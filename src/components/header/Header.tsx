@@ -4,6 +4,7 @@ import {Col, Container, Row} from 'react-bootstrap';
 import Search from "./Search";
 import Logo from "./Logo";
 import Avatar from "./Avatar";
+import '../../assets/css/header.css';
 
 class Header extends React.Component {
     render(){

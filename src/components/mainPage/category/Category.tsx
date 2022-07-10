@@ -1,6 +1,8 @@
 import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
 import CategoryButton from "./CategoryButton";
+import '../../../assets/css/mainPage.css';
+
 class Category extends React.Component{
     render() {
         return(
