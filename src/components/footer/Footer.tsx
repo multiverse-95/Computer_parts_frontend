@@ -5,10 +5,10 @@ import {Col, Container, Row} from 'react-bootstrap';
 class Footer extends React.Component {
     render(){
         return (
-            <div className="header-tab">
+            <div className="footer-tab">
             <Container fluid>
                 <Row>
-                    <Row className="header-row">
+                    <Row>
                         <Col>
 
                         </Col>

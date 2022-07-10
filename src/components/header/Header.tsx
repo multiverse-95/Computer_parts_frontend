@@ -3,6 +3,7 @@ import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
 import Search from "./Search";
 import Logo from "./Logo";
+import Avatar from "./Avatar";
 
 class Header extends React.Component {
     render(){
@@ -17,7 +18,9 @@ class Header extends React.Component {
                         <Col xs={6}>
                             <Search></Search>
                         </Col>
-                        <Col>Avatar</Col>
+                        <Col>
+                            <Avatar></Avatar>
+                        </Col>
                     </Row>
                 </Row>
             </Container>
