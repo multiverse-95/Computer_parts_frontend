@@ -2,6 +2,7 @@ import React from "react";
 import {Col, Container, Row, Carousel} from 'react-bootstrap';
 import '../../../assets/css/mainPage.css';
 
+
 class MainTitle extends React.Component{
     render() {
         return(
