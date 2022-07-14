@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
-import '../../../assets/css/mainPage.css';
+import '../../../assets/css/videoCards.css';
 import { BrowserRouter as Router, Link, Route,Routes,NavLink } from 'react-router-dom';
 import VideoCardsPage from "../../../pages/VideoCardsPage";
 
@@ -13,11 +13,10 @@ class ProductButton extends React.Component<Props, {}>{
     render() {
         return(
             <Row className="button-div">
-
-               <div className="button-cat">
+               <div className="button-open">
                    <Link to={this.props.linkUrl} className="links">
                    <Row>
-                       <Col><p>{this.props.textButton}</p></Col>
+                       <div className="button-open-text">{this.props.textButton}</div>
 
                    </Row>
                    </Link>

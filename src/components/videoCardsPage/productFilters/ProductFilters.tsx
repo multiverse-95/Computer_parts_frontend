@@ -6,9 +6,7 @@ class ProductFilters extends React.Component{
     render() {
         return(
             <div className="productFilters">
-                <Container>
-
-                </Container>
+                <div className="productFilters-text">Фильтры</div>
             </div>
         )
     }
