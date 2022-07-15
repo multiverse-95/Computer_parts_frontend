@@ -1,10 +1,10 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import '../assets/css/videoCards.css';
-import ProductFilters from "../components/videoCardsPage/productFilters/ProductFilters";
-import ProductList from "../components/videoCardsPage/productList/ProductList";
+import ProductFilters from "../components/ProductsPage/productFilters/ProductFilters";
+import ProductList from "../components/ProductsPage/productList/ProductList";
 
-class VideoCardsPage extends React.Component {
+class ProductsPage extends React.Component {
     render() {
         return (
             <div>
@@ -24,4 +24,4 @@ class VideoCardsPage extends React.Component {
         )
     }
 }
-export default VideoCardsPage;
+export default ProductsPage;
