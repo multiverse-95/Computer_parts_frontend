@@ -2,6 +2,9 @@
     padding: 2%;
     background: #DBDBDB;
 }
+.links{
+    text-decoration: none;
+}
 .category{
     padding: 2%;
     height: 500px;

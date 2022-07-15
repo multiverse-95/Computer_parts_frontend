@@ -3,18 +3,19 @@ import {Col, Container, Row} from 'react-bootstrap';
 import CategoryButton from "./CategoryButton";
 import '../../../assets/css/mainPage.css';
 
+
 class Category extends React.Component{
     render() {
         return(
             <div className="category">
                 <Container>
-                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/console.png')} textButton="  Видеокарты"></CategoryButton>
-                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/processor.png')} textButton="  Процессоры"></CategoryButton>
-                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/memory.png')} textButton="  ОЗУ"></CategoryButton>
-                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/motherboard.png')} textButton="  Платы"></CategoryButton>
-                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/cooler.png')} textButton="  Кулеры"></CategoryButton>
-                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/power.png')} textButton="  Блоки питания"></CategoryButton>
-                    <CategoryButton imageUrl={require('../../../assets/images/categoryImages/box.png')} textButton="  Корпуса"></CategoryButton>
+                    <CategoryButton linkUrl={'/products/videocards'} imageUrl={require('../../../assets/images/categoryImages/console.png')} textButton="  Видеокарты"></CategoryButton>
+                    <CategoryButton linkUrl={'/products/processors'} imageUrl={require('../../../assets/images/categoryImages/processor.png')} textButton="  Процессоры"></CategoryButton>
+                    <CategoryButton linkUrl={'/products/memory'} imageUrl={require('../../../assets/images/categoryImages/memory.png')} textButton="  ОЗУ"></CategoryButton>
+                    <CategoryButton linkUrl={'/products/motherboards'} imageUrl={require('../../../assets/images/categoryImages/motherboard.png')} textButton="  Платы"></CategoryButton>
+                    <CategoryButton linkUrl={'/products/coolers'} imageUrl={require('../../../assets/images/categoryImages/cooler.png')} textButton="  Кулеры"></CategoryButton>
+                    <CategoryButton linkUrl={'/products/power'} imageUrl={require('../../../assets/images/categoryImages/power.png')} textButton="  Блоки питания"></CategoryButton>
+                    <CategoryButton linkUrl={'/products/box'} imageUrl={require('../../../assets/images/categoryImages/box.png')} textButton="  Корпуса"></CategoryButton>
                 </Container>
             </div>
         )

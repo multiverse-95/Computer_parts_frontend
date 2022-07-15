@@ -1,27 +1,22 @@
 import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
-import '../../../assets/css/mainPage.css';
+import '../../../assets/css/videoCards.css';
 import { BrowserRouter as Router, Link, Route,Routes,NavLink } from 'react-router-dom';
 import VideoCardsPage from "../../../pages/VideoCardsPage";
 
 interface Props {
     linkUrl:string;
-    imageUrl:string;
     textButton:string;
 }
 
-class CategoryButton extends React.Component<Props, {}>{
+class ProductButton extends React.Component<Props, {}>{
     render() {
         return(
             <Row className="button-div">
-
-               <div className="button-cat">
+               <div className="button-open">
                    <Link to={this.props.linkUrl} className="links">
                    <Row>
-                           <Col xs={6} md={3}>
-                               <img height="42" width="42" src={this.props.imageUrl} alt="category"/>
-                           </Col>
-                       <Col><p>{this.props.textButton}</p></Col>
+                       <div className="button-open-text">{this.props.textButton}</div>
 
                    </Row>
                    </Link>
@@ -32,4 +27,4 @@ class CategoryButton extends React.Component<Props, {}>{
         )
     }
 }
-export default CategoryButton;
+export default ProductButton;
