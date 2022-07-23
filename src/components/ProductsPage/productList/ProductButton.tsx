@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
-import '../../../assets/css/videoCards.css';
+import '../../../assets/css/productsPage.css';
 import { BrowserRouter as Router, Link, Route,Routes,NavLink } from 'react-router-dom';
 import ProductsPage from "../../../pages/ProductsPage";
 

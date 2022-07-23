@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
-import '../assets/css/videoCards.css';
+import '../assets/css/productsPage.css';
 import ProductFilters from "../components/ProductsPage/productFilters/ProductFilters";
 import ProductList from "../components/ProductsPage/productList/ProductList";
 

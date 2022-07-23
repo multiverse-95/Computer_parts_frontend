@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
-import '../../../assets/css/videoCards.css';
+import '../../../assets/css/productsPage.css';
 import ProductButton from "./ProductButton";
 import ProductItem from "./ProductItem";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
 import { BrowserRouter as Router, Link, Route,Routes,NavLink } from 'react-router-dom';
-import '../../../assets/css/videoCards.css';
+import '../../../assets/css/productsPage.css';
 import ProductButton from "./ProductButton";
 import LikeButton from "./LikeButton";
 
