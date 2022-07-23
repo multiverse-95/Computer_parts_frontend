@@ -1,3 +1,3 @@
 export const AppConfig = {
-    publishMode: true
+    publishMode: false
 };
