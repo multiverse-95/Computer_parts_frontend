@@ -1,13 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom'
+import {AppConfig} from "./types";
+import {BrowserRouter, HashRouter} from 'react-router-dom'
 
 ReactDOM.render(
     <React.StrictMode>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
+        {
+            AppConfig.publishMode
+                ? (
+                    <HashRouter>
+                            <App />
+                    </HashRouter>
+                )
+                : (
+                    <BrowserRouter>
+                            <App />
+                    </BrowserRouter>
+                )
+        }
     </React.StrictMode>,
     document.getElementById('root')
 );

@@ -17,6 +17,40 @@
     text-decoration: none;
     text-align: center;
 }
+.productFilters-items{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+}
+.productFilters-item{
+    padding-top: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+}
+.productFilters-confirm{
+    padding-top: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: black;
+}
+.productFilters-confirm-button{
+    cursor:pointer;
+    height: 50px;
+    background: #D5CDCD;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .productList{
     height: 1000px;
     background: #DBDBDB;

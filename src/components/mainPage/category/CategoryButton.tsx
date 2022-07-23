@@ -2,7 +2,7 @@ import React from "react";
 import {Col, Container, Row} from 'react-bootstrap';
 import '../../../assets/css/mainPage.css';
 import { BrowserRouter as Router, Link, Route,Routes,NavLink } from 'react-router-dom';
-import VideoCardsPage from "../../../pages/VideoCardsPage";
+import ProductsPage from "../../../pages/ProductsPage";
 
 interface Props {
     linkUrl:string;

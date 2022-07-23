@@ -6,7 +6,7 @@ import MainTitle from "../components/mainPage/mainTitle/MainTitle";
 import SecondTitle from "../components/mainPage/secondTitle/SecondTitle";
 import '../assets/css/mainPage.css';
 import {Route, Routes} from "react-router-dom";
-import VideoCardsPage from "./VideoCardsPage";
+import ProductsPage from "./ProductsPage";
 
 class MainPage extends React.Component {
     render() {

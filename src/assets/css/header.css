@@ -27,7 +27,7 @@
 .search-div{
     position: relative;
     height: 100%;
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +36,7 @@
     position: absolute;
     width:100%;
     background: #F4F2F2;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .avatar-div{
     cursor:pointer;
